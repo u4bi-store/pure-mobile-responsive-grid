@@ -111,4 +111,18 @@ ul{
 .contact form textarea{
     width: 100%;
     padding: 1em;
-} 
+}
+
+.contact form button {
+    background : #ff00ff;
+    border: 0;
+    color: #fff;    
+    text-transform: uppercase;
+
+    opacity: .9;
+}
+
+.contact form button:hover,
+.contact from button:focus{
+    opacity: 1;
+}
