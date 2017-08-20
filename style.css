@@ -14,8 +14,9 @@ div{
 }
 
 body{
-    background : #92bde7;
-    color: #485e74;
+
+    background: #333333;  
+    color: #fff;
 
     line-height: 1.6;
     font-family: sans-serif;
@@ -38,11 +39,6 @@ ul{
     text-align: center;
 }
 
-
-.brand span{
-    color: #fff;
-}
-
 .wrapper{
     box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
     /*
@@ -57,8 +53,9 @@ ul{
     padding : 1em;
 }
 
-.company-info{
-    background: #c9e6ff;
+.company-info{   
+    background : #690090;
+
 }
 
 .company-info h3, .company-info ul{
@@ -67,7 +64,7 @@ ul{
 }
 
 .contact{
-    background : #f9feff;
+    background : #9400CB;
 }
 
 /*==============================================
@@ -111,18 +108,21 @@ ul{
     width: 100%;
     padding: 1em;
 
-    border: 1px solid #c9e6ff;
+    border: 1px solid #690090;
+
+    outline: none;
 }
 
 .contact form button {
-    background : #c9e6ff;
+    background : #690090;
+    color: #e7e7e7;
     border: 0;
     text-transform: uppercase;
 }
 
 .contact form button:hover,
 .contact from button:focus{
-    background : #92bde7;
+    background : #333333;
     color: #fff;
     transition: background-color .5s ease-out;
 }
