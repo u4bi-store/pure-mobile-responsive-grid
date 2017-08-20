@@ -70,3 +70,33 @@ ul{
     color : #000;
     background : #00ff00;
 }
+
+/*==============================================
+====== FORM STYLE ==============================
+================================================ */
+.contact form{
+    display: grid;
+    /* https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout */
+
+    grid-template-columns : 1fr 1fr;
+    /* https://developer.mozilla.org/ko/docs/Web/CSS/grid-template-columns
+       
+
+       Grid layout "fr" measurement (What does it mean?)
+       
+       https://social.msdn.microsoft.com/Forums/en-US/95fddeb2-04bc-4f2b-bfb6-ffecffe5e8d5/grid-layout-fr-measurement-what-does-it-mean?forum=winappswithhtml5
+    
+    */
+
+    grid-gap : 10px;
+    /* https://developer.mozilla.org/ko/docs/Web/CSS/grid-gap */
+
+}
+
+.contact form label{
+    display: block;
+}
+
+.contact form p{
+    margin:0;
+} 
