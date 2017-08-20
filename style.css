@@ -122,4 +122,5 @@ ul{
 .contact from button:focus{
     background : #92bde7;
     color: #fff;
+    transition: background-color .5s ease-out;
 }
