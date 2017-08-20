@@ -1,5 +1,5 @@
 div{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 *{
@@ -14,8 +14,8 @@ div{
 }
 
 body{
-    background : #ff00ff;
-    color: #fff;
+    background : #92bde7;
+    color: #485e74;
 
     line-height: 1.6;
     font-family: sans-serif;
@@ -40,7 +40,7 @@ ul{
 
 
 .brand span{
-    color: #00ff00;
+    color: #fff;
 }
 
 .wrapper{
@@ -58,7 +58,7 @@ ul{
 }
 
 .company-info{
-    color: #00ff00;
+    color: #c9e6ff;
 }
 
 .company-info h3, .company-info ul{
@@ -67,8 +67,7 @@ ul{
 }
 
 .contact{
-    color : #000;
-    background : #00ff00;
+    background : #f9feff;
 }
 
 /*==============================================
@@ -114,15 +113,13 @@ ul{
 }
 
 .contact form button {
-    background : #ff00ff;
+    background : #c9e6ff;
     border: 0;
-    color: #fff;    
     text-transform: uppercase;
-
-    opacity: .9;
 }
 
 .contact form button:hover,
 .contact from button:focus{
-    opacity: 1;
+    background : #92bde7;
+    color: #fff;
 }
