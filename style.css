@@ -1,3 +1,24 @@
 div{
     border: 1px solid red;
 }
+
+*{
+    box-sizing: border-box;
+    /*
+        https://developer.mozilla.org/ko/docs/Web/CSS/box-sizing
+        
+        http://ko.learnlayout.com/box-sizing.html
+        https://opentutorials.org/course/2418/13405
+
+    */
+}
+
+body{
+    background : #ff00ff;
+    color: #fff;
+
+    line-height: 1.6;
+    font-family: sans-serif;
+
+    padding: 1em;
+}
