@@ -42,3 +42,17 @@ ul{
 .brand span{
     color: #00ff00;
 }
+
+.wrapper{
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    /*
+        https://developer.mozilla.org/ko/docs/Web/CSS/box-shadow
+
+        https://msdn.microsoft.com/ko-kr/library/gg589484(v=vs.85).aspx
+
+    */
+}
+
+.wrapper > * { /* https://developer.mozilla.org/ko/docs/Web/CSS/Child_selectors */
+    padding : 1em;
+}
