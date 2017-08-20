@@ -65,3 +65,8 @@ ul{
     text-align: center;
     margin: 0 0 1rem 0; /* top, right, bottom, left */
 }
+
+.contact{
+    color : #000;
+    background : #00ff00;
+}
