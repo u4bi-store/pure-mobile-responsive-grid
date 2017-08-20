@@ -58,7 +58,7 @@ ul{
 }
 
 .company-info{
-    color: #c9e6ff;
+    background: #c9e6ff;
 }
 
 .company-info h3, .company-info ul{
@@ -110,6 +110,8 @@ ul{
 .contact form textarea{
     width: 100%;
     padding: 1em;
+
+    border: 1px solid #c9e6ff;
 }
 
 .contact form button {
